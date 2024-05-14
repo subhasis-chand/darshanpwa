@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
+import LandingPage from './LandingPage';
 
 function App() {
   const [supportsPWA, setSupportsPWA] = useState(false);
@@ -25,13 +29,14 @@ function App() {
     }
     promptInstall.prompt();
   };
+  // if (!supportsPWA) {
+  //   return <div>App installed
+  //     <div>pwa supprot: {supportsPWA ? 'yes' : 'no'}</div>
+  //   </div>;
+  // }
+
   return (
     <div className="App">
-      {!supportsPWA &&
-        <div>App installed
-          <div>pwa supprot: {supportsPWA ? 'yes' : 'no'}</div>
-        </div>
-      }
       <div >
         {supportsPWA &&
           <>
@@ -48,6 +53,14 @@ function App() {
           </>
         }
       </div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/home" element={<LandingPage />} />
+          <Route exact path="/aboutus" element={<AboutUs />} />
+          <Route exact path="/contactus" element={<ContactUs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
