@@ -39,7 +39,7 @@ const CardWithVideo = ({
       try {
         await navigator
           .share({
-            url: "https://psychic-funicular-5rp7p4xjq7436rv-3000.app.github.dev/",
+            url: "https://www.sanatandarshan.net",
             title: "Sanatan Darshan",
             text: "Watch live streaming of many sanatan temples with one single app. Stay blessed."
           })

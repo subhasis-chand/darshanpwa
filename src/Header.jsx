@@ -106,7 +106,7 @@ import {
                   About Us
                 </span>
               </MenuItem>
-              <MenuItem onClick={() => handleClickMenu('contactus')}>
+              <MenuItem onClick={() => handleClickMenu('/contactus')}>
                 <ContactMailIcon style={headerMenuStyle} />
                 <span className="MenubarText">
                   Contact Us
