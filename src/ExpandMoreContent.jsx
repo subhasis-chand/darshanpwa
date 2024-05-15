@@ -6,7 +6,7 @@ const ExpandMoreContent = ({ templeName }) => {
     return (
       <CardContent>
         <Typography paragraph>
-          The Siddhivinayak Temple, located in Mumbai, India, is one of the most renowned and revered Hindu temples dedicated to Lord Ganesha, the remover of obstacles and the god of beginnings. This iconic temple holds immense significance for devotees from across the country and around the world, drawing thousands of visitors each day. Its name, "Siddhivinayak," translates to "one who grants wishes and fulfills desires," reflecting the belief among devotees in the deity's power to bestow blessings and bring prosperity.
+          The Siddhivinayak Temple, located in Mumbai, Maharashtra, India, is one of the most renowned and revered Hindu temples dedicated to Lord Ganesha, the remover of obstacles and the god of beginnings. This iconic temple holds immense significance for devotees from across the country and around the world, drawing thousands of visitors each day. Its name, "Siddhivinayak," translates to "one who grants wishes and fulfills desires," reflecting the belief among devotees in the deity's power to bestow blessings and bring prosperity.
         </Typography>
         <Typography paragraph>
           The history of the Siddhivinayak Temple dates back to the 18th century in Mumbai, India. The temple's origin is attributed to a wealthy merchant named Laxman Vithu Patil, who built the temple complex with the help of his wife, Deubai Patil, in 1801. The couple, known for their deep devotion to Lord Ganesha, constructed the temple as a place of worship for the local community.
